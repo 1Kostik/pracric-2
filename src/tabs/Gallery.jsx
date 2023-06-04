@@ -9,8 +9,7 @@ export class Gallery extends Component {
     images: [],
     page: 1,
     isEmpty: false,
-    isLoading: false,
-    getPhoto:false
+    isLoading: false   
   }
 
   componentDidUpdate(prevProps, prevState) {
