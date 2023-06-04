@@ -9,8 +9,8 @@ export class Gallery extends Component {
     images: [],
     page: 1,
     isEmpty: false,
-    isLoading: false   
-  }
+    isLoading: false  
+    }
 
   componentDidUpdate(prevProps, prevState) {
     const {query, page}=this.state
